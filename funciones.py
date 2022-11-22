@@ -8,6 +8,7 @@ Un ejemplo es "print" es una función predefinida por el lenguaje, es decir, que
 Y lo mejor es qu podemos tenerla a nuestra disposición cuando queramos
 Y luego estan las funciones creadas por nosotros mismos. Para definir y crear una funcion se utiliza el "def"
 """
+#Ejemplo:
 def mensaje(): #Aquí se hace una declaración o nombre de la función propia "def mensaje()"
     print("Estoy aprendiendo en Python")
     print("Estoy aprendiendo intrucciones") #ESTOS tres primeros print son el cuerpo de la función
@@ -19,6 +20,6 @@ def funcion(nombre, edad): #declaramos nuestros parametros dentro de nuestra fun
     print('hola desde mi funcion')
     print(f'Nombre: {nombre}, Edad: {edad}')
 funcion('Marisol', 28 ) #aquí ponemos los valores de los parametros declarados
-funcion("Josefina", 45)
+funcion("Josefina", 45) #da igual si es con "" o '' para los valores
 
 
